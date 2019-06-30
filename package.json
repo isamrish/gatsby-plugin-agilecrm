@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-agilecrm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Gatsby Plugin to easily add a AgileCRM embed code to your site",
   "main": "index.js",
   "scripts": {},
