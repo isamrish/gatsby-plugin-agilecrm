@@ -6,12 +6,18 @@ export function onRenderBody(
 ) {
   const options = Object.assign({}, pluginOptions);
   const { jsAPIKey, agilecrmOrgName } = options;
+  if (jsAPIKey === undefined && agilecrmOrgName === undefined) {
+    reporter.warn(
+      "Neither jsAPIKey is provided nor agilecrmOrgName is provided"
+    );
+    return;
+  }
   if (jsAPIKey === undefined) {
-    reporter.warn("No agilecrm org's javascript api key provided ");
+    reporter.warn("No jsAPIKey is provided");
     return;
   }
   if (agilecrmOrgName === undefined) {
-    reporter.warn("No agilecrm org name provided ");
+    reporter.warn("No agilecrmOrgName is provided");
     return;
   }
   setPostBodyComponents([
