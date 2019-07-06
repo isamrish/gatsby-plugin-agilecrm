@@ -1,6 +1,6 @@
 # gatsby-plugin-agilecrm
 
-[![Build Status](https://travis-ci.org/IsAmrish/gatsby-plugin-agilecrm.svg?branch=master)](https://travis-ci.org/IsAmrish/gatsby-plugin-agilecrm) [![npm version](https://badge.fury.io/js/gatsby-plugin-agilecrm.svg)](https://www.npmjs.com/package/gatsby-plugin-agilecrm)
+[![Build Status](https://travis-ci.org/IsAmrish/gatsby-plugin-agilecrm.svg?branch=master)](https://travis-ci.org/IsAmrish/gatsby-plugin-agilecrm) [![npm version](https://badge.fury.io/js/gatsby-plugin-agilecrm.svg)](https://badge.fury.io/js/gatsby-plugin-agilecrm)
 
 A Gatsby Plugin to easily add a AgileCRM embed code to your site
 
